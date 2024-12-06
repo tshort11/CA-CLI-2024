@@ -1,7 +1,9 @@
+from prettytable import PrettyTable
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
+from spotipy.exceptions import SpotifyException
 import requests
-import base64 
+import time
 
 class SpotifyAPI:
     def __init__(self, client_id, client_secret, redirect_uri):
@@ -43,11 +45,11 @@ class SpotifyAPI:
             # Set the token expiry time
             self.token_expires = time.time() + 3600 
 
-    def search_album(self, album_name):
-        self.refresh_token_if_expired()
-        headers = {
-            'Authorization': f'Bearer {self.access_token}'
-        }
+    # def search_album(self, album_name):
+    #     self.refresh_token_if_expired()
+    #     headers = {
+    #         'Authorization': f'Bearer {self.access_token}'
+    #     }
 
     def search_album(self, album_name):
         result = self.sp.search(q='album:' + album_name, type='album')
@@ -109,4 +111,4 @@ def display_new_releases(releases):
 
         table.add_row([album_name, artists, release_date, url])
 
-    print(tabl
+    print(table)
