@@ -15,8 +15,8 @@ from classes.spotify_api import SpotifyAPI
 users = {}
 
 # Constants to store client id and secret for spotify API.
-client_id='b822e6dd652d466581c81bee14a44cdc'
-client_secret='a5904fb2416a46eca583170f23ab2383'
+client_id= '198927f99bff427aac1d35ab12aa3114' #'b822e6dd652d466581c81bee14a44cdc'
+client_secret='5610eda4f54346b4b832d771959a7015' #'a5904fb2416a46eca583170f23ab2383'
 
 # Function to load user data from a JSON file
 def load_users(filename='users.json'):
