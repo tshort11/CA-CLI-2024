@@ -1,0 +1,66 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv
+venv/
+.env/
+*.env
+
+# Cache files
+.cache
+.cache/
+*.egg-info/
+.eggs/
+
+# Distribution / Packaging
+dist/
+build/
+*.egg
+*.whl
+pip-wheel-metadata/
+
+# Logs
+*.log
+*.out
+*.err
+
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python-specific IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Pytest
+.pytest_cache/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Coverage reports
+.coverage
+coverage.xml
+*.cover
+*.coverage.*
+
+# Profiling data
+*.prof
+
+# SQLite Database Files
+*.sqlite3
+
+# Temporary Files
+*.bak
+*.tmp
+*.old
+
+# Lock files
+poetry.lock
+Pipfile.lock

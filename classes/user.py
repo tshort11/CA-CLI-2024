@@ -1,14 +1,14 @@
 import json
 
 class User:
-    def __init__(self, user_id, username, email, password):
+    def __init__(self, user_id, username, email, password, favorite_albums=[], favorite_songs=[], favorite_artists=[]):
         self.user_id = user_id
         self.username = username
         self.email = email
         self.password = password
-        self.favorite_albums = []
-        self.favorite_songs = []
-        self.favorite_artists = []
+        self.favorite_albums = favorite_albums
+        self.favorite_songs = favorite_songs
+        self.favorite_artists = favorite_artists
 
     def check_password(self, password):
         return self.password == password
