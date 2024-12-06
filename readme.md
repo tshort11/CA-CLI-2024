@@ -1,4 +1,4 @@
-# Music Recommendation App (Interlude??)
+# Music Recommendation App (Interlude!)
 
 ## Table of Contents
 
