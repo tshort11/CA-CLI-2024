@@ -11,6 +11,7 @@
 7. [Ethical Considerations](#ethical-considerations)
 8. [Feedback](#feedback)
 9. [Help File Examples](#help-file-examples)
+10. [Contributers](#Contributers)
 
 ---
 
@@ -151,3 +152,10 @@ A: Ensure Python 3.10+ is installed and run:
 ```bash
 pip install -r requirements.txt
 ```
+
+---
+
+## Contributers
+
+Tamika Short - Main Developer
+Shane Miller - Contributing Developer
